@@ -166,7 +166,11 @@ input[type='number'] {
 .list li.plus:hover {
   border-right: 5px solid #068f3b;
   background-color: #068f3b;
-  color: #f7f7f7
+  color: #f7f7f7;
+  background-color: #068f3b;
+  transform: scale(1.10);
+  cursor: pointer;
+  color: white;
 }
 
 .list li.minus {
@@ -176,7 +180,11 @@ input[type='number'] {
 .list li.minus:hover {
   border-right: 5px solid #b60f0f;
   background-color: #b60f0f;
-  color: #f7f7f7
+  color: #f7f7f7;
+  background-color: #b60f0f;
+  transform: scale(1.10);
+  cursor: pointer;
+  color: white;
 }
 
 
