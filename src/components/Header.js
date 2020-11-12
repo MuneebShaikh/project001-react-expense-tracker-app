@@ -2,8 +2,10 @@ import React from 'react';
 
 export const Header = () => {
   return (
-    <h1>
+    <div className="box">
+    <h2>
       Expense Tracker App By Muneeb Shaikh
-    </h1>
+    </h2>
+    </div>
   )
 }
