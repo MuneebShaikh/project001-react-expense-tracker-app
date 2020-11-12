@@ -168,7 +168,7 @@ input[type='number'] {
   background-color: #068f3b;
   color: #f7f7f7;
   background-color: #068f3b;
-  transform: scale(1.10);
+  transform: scale(.95);
   cursor: pointer;
   color: white;
 }
@@ -182,7 +182,7 @@ input[type='number'] {
   background-color: #b60f0f;
   color: #f7f7f7;
   background-color: #b60f0f;
-  transform: scale(1.10);
+  transform: scale(.95);
   cursor: pointer;
   color: white;
 }
