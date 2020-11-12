@@ -1,16 +1,17 @@
 import React from 'react';
+
+//Import CSS
 import './App.css';
 
-// Import the Global Provider
-import { GlobalProvider } from './context/GlobalState'
-
 // Import components
-import { Header } from './components/Header'
-import { Balance } from './components/Balance'
-import { AccountSummary } from './components/AccountSummary'
-import { TransactionHistory } from './components/TransactionHistory'
-import { AddTransaction } from './components/AddTransaction'
+import { Header } from './components/Header';
+import { Balance } from './components/Balance';
+import { AccountSummary } from './components/AccountSummary';
+import { TransactionHistory } from './components/TransactionHistory';
+import { AddTransaction } from './components/AddTransaction';
 
+// Import the Global Provider
+import { GlobalProvider } from './context/GlobalState';
 
 function App() {
   return (
